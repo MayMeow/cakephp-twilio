@@ -32,6 +32,14 @@ class TwilioComponentTest extends TestCase
     }
 
     /**
+     * @return void
+     */
+    public function testComponentClass()
+    {
+        $this->assertInstanceOf(TwilioComponent::class, $this->Twilio);
+    }
+
+    /**
      * tearDown method
      *
      * @return void
