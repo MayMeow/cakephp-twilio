@@ -16,7 +16,7 @@ class MessageTest extends TestCase
     ];
 
     /**
-     * 
+     *
      */
     public function setUp(): void
     {
